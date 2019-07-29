@@ -5,7 +5,6 @@ class ValidationMixin {
       }
       return null;
     }
-  }
 
   String validatePassword(String value){
     if (value.length < 4) {
